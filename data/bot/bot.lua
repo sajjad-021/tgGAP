@@ -170,7 +170,7 @@ function save_config( )
   print ('saved config into ./data/config.lua')
 end
 function get_bot_info()
-bot = {}
+bot = {180191663}
 local function dl_info(arg,data)
 bot.id = data.id_
 bot.name = data.first_name_
